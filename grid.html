@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+            #grid {  /* стиль сетки */
+                background-color: springgreen;  /* фон сетки */
+                display: grid;  /* отображение в виде сетки */
+                padding: 8px;  /* отступы вокруг сетки */
+                grid-column-gap: 5px;  /* промежутки между столбцами сетки */
+                grid-row-gap: 5px;  /* разрыв между строками сетки */
+                grid-template-columns: 200px 200px auto;  /* столбцы шаблона сетки: 1-й столбец 2-й столбец 3-й столбец */
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 20px; /* размер шрифта */
+                padding: 20px;
+                text-align: center; /* центрирование (расположение по центру) */
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="grid">  <!-- сетка -->
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+            <div class="grid-item">10</div>
+            <div class="grid-item">11</div>
+            <div class="grid-item">12</div>
+        </div>
+    </body>
+</html>

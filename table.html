@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Table</title>
+        <style>
+            table {  /* границы таблицы */
+                border: 1px solid black;  /* толщина, непрерывная, цвет */
+                border-collapse: collapse; /* свернуть границы таблицы */
+            }
+
+            td, th {  /* границы строк и столбцов */
+                border: 1px solid black;  /* толщина, непрерывная, цвет */
+                padding: 5px;  /* отступы */
+            }
+        </style>
+    </head>
+    <body>
+        <table>  <!--таблица-->
+            <thead>  <!--Заголовок таблицы-->
+                <tr>  <!--Строки таблицы-->
+                    <th>Ocean</th> <!--Столбцы таблицы-->
+                    <th>Average Depth</th>
+                    <th>Maximum Depth</th>
+                </tr>
+            </thead>
+            <tbody>  <!--Основная часть таблицы-->
+                <tr>  <!--Строки таблицы-->
+                    <td>Pacific Ocean</td>  <!--Элемент таблицы-->
+                    <td>4.280 m</td>
+                    <td>10.911 m</td>
+                </tr>
+                <tr>  <!--Строки таблицы-->
+                    <td>Atlantic Ocean</td>
+                    <td>3.646 m</td>
+                    <td>8.486 m</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
